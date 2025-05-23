@@ -35,7 +35,7 @@ def get_db():
 
         try:
             log.info("Database Connection")
-            g.db = sqlite3.connect("app/inventory.db")
+            g.db = sqlite3.connect("homework/inventory.db")
             g.db.row_factory = sqlite3.Row
 
         except Exception as d:

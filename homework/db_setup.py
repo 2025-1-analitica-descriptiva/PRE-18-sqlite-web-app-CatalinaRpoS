@@ -5,7 +5,7 @@ import sqlite3
 
 try:
     print("Database Connection")
-    db = sqlite3.connect("app/inventory.db")
+    db = sqlite3.connect("homework/inventory.db")
 
     print("Create Cursor")
 
